@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Built-By: alekh.raj
+Created-By: Apache Maven
+Build-Jdk: 1.8.0_111
+Extension-Name: newplugin
+Specification-Title: TODO
+Implementation-Title: newplugin
+Implementation-Version: 1.0-SNAPSHOT
+Group-Id: ABC
+Short-Name: newplugin
+Long-Name: TODO Plugin
+Url: https://wiki.jenkins-ci.org/display/JENKINS/TODO+Plugin
+Plugin-Version: 1.0-SNAPSHOT (private-01/30/2017 12:43-alekh.raj)
+Hudson-Version: 1.625.3
+Jenkins-Version: 1.625.3
+Plugin-Developers: 
+

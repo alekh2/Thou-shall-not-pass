@@ -1,0 +1,7 @@
+ABC/newplugin/TestBuilder.class
+ABC/newplugin/HelloWorldBuilder$DescriptorImpl.class
+ABC/newplugin/TestBuilder$Descriptor.class
+ABC/newplugin/FileTester.class
+ABC/newplugin/HelloWorldBuilder.stapler
+ABC/newplugin/HelloWorldBuilder.class
+META-INF/annotations/hudson.Extension
