@@ -56,7 +56,7 @@ public class HelloWorldBuilder extends Builder implements SimpleBuildStep {
             return true;
         }
        public String getDisplayName() {
-            return "Say hello world";
+            return "Package Tester";
         }
     }
 }
