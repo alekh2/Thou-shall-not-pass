@@ -1,0 +1,27 @@
+Started by user [8mha:AAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgYu/dLi1CL9vNKcHACFIKlWvwAAAA==[0manonymous
+Building in workspace /Users/alekh.raj/Documents/creating_plugin/newplugin/work/jobs/dsf/workspace
+ERROR: Build step failed with exception
+[8mha:AAAAWB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P08vOT+vOD8nVc8DzHWtSE4tKMnMz/PLL0ldFVf2c+b/lb5MDAwVRQxSaBqcITRIIQMEMIIUFgAAckCEiWAAAAA=[0mjava.lang.NullPointerException
+	at org.apache.commons.cli.DefaultParser.isLongOption(DefaultParser.java:312)
+	at org.apache.commons.cli.DefaultParser.isOption(DefaultParser.java:291)
+	at org.apache.commons.cli.DefaultParser.isArgument(DefaultParser.java:263)
+	at org.apache.commons.cli.DefaultParser.handleToken(DefaultParser.java:233)
+	at org.apache.commons.cli.DefaultParser.parse(DefaultParser.java:120)
+	at org.apache.commons.cli.DefaultParser.parse(DefaultParser.java:76)
+	at org.apache.commons.cli.DefaultParser.parse(DefaultParser.java:60)
+	at com.flipkart.depcheck.app.CliParser.parse(CliParser.java:24)
+	at com.flipkart.depcheck.app.App.analyze(App.java:41)
+	at com.flipkart.depcheck.app.App.main(App.java:32)
+	at ABC.newplugin.HelloWorldBuilder.perform(HelloWorldBuilder.java:73)
+	at hudson.tasks.BuildStepCompatibilityLayer.perform(BuildStepCompatibilityLayer.java:75)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:785)
+	at hudson.model.Build$BuildExecution.build(Build.java:205)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:162)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:537)
+	at hudson.model.Run.execute(Run.java:1741)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:98)
+	at hudson.model.Executor.run(Executor.java:408)
+Build step 'Package Tester' marked build as failure
+Finished: FAILURE

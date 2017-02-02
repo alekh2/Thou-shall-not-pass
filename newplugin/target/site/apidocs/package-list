@@ -1,1 +1,9 @@
 ABC.newplugin
+com.flipkart.depcheck.Utils
+com.flipkart.depcheck.analyzers
+com.flipkart.depcheck.app
+com.flipkart.depcheck.constants
+com.flipkart.depcheck.engine
+com.flipkart.depcheck.exceptions
+com.flipkart.depcheck.models
+com.flipkart.depcheck.reporting

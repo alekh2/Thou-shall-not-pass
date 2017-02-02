@@ -13,7 +13,9 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <ABC.newplugin.HelloWorldBuilder plugin="newplugin@1.0-SNAPSHOT">
-      <name>sdfdd</name>
+      <pathName>/Users/alekh.raj/Documents/creating_plugin/newplugin</pathName>
+      <projectName>newplugin</projectName>
+      <logDirName>/Users/alekh.raj/Documents/creating_plugin/newplugin</logDirName>
     </ABC.newplugin.HelloWorldBuilder>
   </builders>
   <publishers/>

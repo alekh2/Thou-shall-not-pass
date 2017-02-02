@@ -17,4 +17,8 @@
   <f:entry title="Project Name" field="projectName">
       <f:textbox />
     </f:entry>
+
+  <f:entry title="Output Destination" field="logDirName">
+      <f:textbox />
+  </f:entry>
 </j:jelly>
